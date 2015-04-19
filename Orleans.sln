@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.Interfaces", "Orleans.Interfaces\Orleans.Interfaces.csproj", "{059F4420-4458-4301-8320-65AA1CCD16C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.Grains", "Orleans.Grains\Orleans.Grains.csproj", "{4A0C3D4B-BE41-4A7A-A02F-8127147A33A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.Selfhost", "Orleans.Selfhost\Orleans.Selfhost.csproj", "{CFD35AA9-6797-4E71-826C-29EB62AC85A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{059F4420-4458-4301-8320-65AA1CCD16C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059F4420-4458-4301-8320-65AA1CCD16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059F4420-4458-4301-8320-65AA1CCD16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059F4420-4458-4301-8320-65AA1CCD16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0C3D4B-BE41-4A7A-A02F-8127147A33A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0C3D4B-BE41-4A7A-A02F-8127147A33A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0C3D4B-BE41-4A7A-A02F-8127147A33A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0C3D4B-BE41-4A7A-A02F-8127147A33A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD35AA9-6797-4E71-826C-29EB62AC85A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD35AA9-6797-4E71-826C-29EB62AC85A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD35AA9-6797-4E71-826C-29EB62AC85A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD35AA9-6797-4E71-826C-29EB62AC85A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
